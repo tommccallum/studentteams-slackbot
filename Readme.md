@@ -10,7 +10,10 @@ source venv/bin/activate
 pip install slack_bot
 pip install python-dotenv
 git clone https://github.com/slackapi/python-slack-sdk slack-sdk
+cp .env .env.template
 ```
+
+Modify the .env file with your Slack credentials for your new bot.
 
 To run the script you then need to do the following:
 
