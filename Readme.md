@@ -19,6 +19,7 @@ To run the script you then need to do the following:
 
 ```
 source venv/bin/activate
+export PYTHONPATH=slack-sdk
 python createStudentTeams.py <team json description>
 ```
 
